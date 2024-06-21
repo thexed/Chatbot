@@ -1,0 +1,31 @@
+
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Merhaba", "Selam", "İyi günler", "Orada biri var mı?"],
+      "responses": ["Merhaba! Size nasıl yardımcı olabilirim?", "Selam, Galatasaray Üniversitesi hakkında ne öğrenmek istersiniz?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Görüşürüz", "Hoşça kal", "Bay bay"],
+      "responses": ["Görüşmek üzere!", "Hoşça kalın, tekrar bekleriz!"]
+    },
+    {
+        "tag": "application_process",
+        "patterns": ["Üniversiteye nasıl başvurabilirim?", "Başvuru koşulları nelerdir?", "Galatasaray Üniversitesi'ne giriş şartları nedir?"],
+        "responses": ["Galatasaray Üniversitesi'ne başvurmak için YKS puanınızın belirli bir düzeyin üzerinde olması gerekmektedir. Detaylı bilgi için üniversitenin resmi web sitesini ziyaret edebilirsiniz."]
+    },
+    {
+        "tag": "faculties",
+        "patterns": ["Hangi bölümler var?", "Üniversitede hangi fakülteler bulunuyor?", "Galatasaray Üniversitesinde ne tür bölümler mevcut?"],
+        "responses": ["Galatasaray Üniversitesi'nde Matematik, hukuk, işletme, iletişim gibi birçok fakülte bulunmaktadır. Tüm bölümler için üniversitenin resmi web sitesini ziyaret edebilirsin."]
+    },
+    {
+        "tag": "scholarships",
+        "patterns": ["Burs olanakları nelerdir?", "Üniversitede burs alabilir miyim?", "Öğrenim bursu var mı?"],
+        "responses": ["Galatasaray Üniversitesi, başarılı öğrencilere çeşitli burs olanakları sunmakta bunlardan bazıları üniversite içinde bölümüne ilk 3e girenler için bir burs ve tev gibi vakıfların bursları bulunuyor. Burslar hakkında daha fazla bilgi almak için üniversitenin burs ofisiyle iletişime geçebilirsin."]
+    }
+  ]
+}
